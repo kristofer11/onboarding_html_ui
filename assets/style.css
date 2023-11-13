@@ -8,8 +8,6 @@ body {
     overflow-y: auto; /* Enable scrolling for body */
     flex-grow: 1; /* Allow body to fill the space */
     padding: 10px;
-    margin-top: 25px; /* Adjust this value to the height of the header */
-    margin-bottom: 25px; /* Adjust this value to the height of the footer */
 }
 
 .qs_app_modal {
@@ -100,21 +98,23 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     visibility: hidden;
+
+    max-height: 90%;
+    margin-top: 2rem;
 }
 
-.welcome {
+/* .welcome {
     margin-top: 4rem;
 }
 
 .welcome-final {
     margin-bottom: 4rem;
-}
+} */
 
 .qs_app_step.active {
     opacity: 1;
     visibility: visible;
     overflow-y: auto;
-    max-height: 100%;
 }
 
 #qs_app_prev_btn, #qs_app_next_btn {
