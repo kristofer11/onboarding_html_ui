@@ -102,9 +102,19 @@ body {
     visibility: hidden;
 }
 
+.welcome {
+    margin-top: 4rem;
+}
+
+.welcome-final {
+    margin-bottom: 4rem;
+}
+
 .qs_app_step.active {
     opacity: 1;
     visibility: visible;
+    overflow-y: auto;
+    max-height: 100%;
 }
 
 #qs_app_prev_btn, #qs_app_next_btn {
